@@ -123,5 +123,5 @@ BOQR_BAL <- function(data,q,iters=10000) {
     delta.chain[i,] <- delta 
   }
   
-  return(list(beta.chain,delta.chain))
+  return(beta.chain)
 }
